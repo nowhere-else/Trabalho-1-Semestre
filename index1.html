@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Script para Ícone-->
+    <script src="https://kit.fontawesome.com/737f05faf1.js" crossorigin="anonymous"></script>
+    <!--External link do CSS-->
+    <link rel="stylesheet" href="style1.css">
+    <!--Link p/ adicionar fonte-->
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <title>Trabalho:1-Semestre</title>
+</head>
+<body>
+    <!--Link p/ site de preferência-->
+      <a href="https://www.youtube.com/@Akitando" target="_blank" title="Youtube/@Akitando">
+        <i class="fa-brands fa-youtube fa-2xl"></i>
+    </a>
+    <!--Breve Introdução-->
+    <h1>Brendo de Freitas Martinez</h1>
+    <p>Meu nome é Brendo de Freitas Martinez, tenho 24 anos, moro em Curitiba-PR e atualmente estou cursando superior em Engenharia de Software.
+    <br>
+    Trabalho desde os meus 18, mas é a primeira vez que invisto no meu futuro e em algo que eu realmente goste e me veja atuando.
+    
+    
+    <!--Parte do JS. Por ser simples, não achei necessário fazer um file.--> 
+    <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+  <!--Mensagem irá aparecer aqui-->
+    <div id="mensagem"></div>
+  <script>
+    function mostrarMensagem() {
+      const mensagem = "A Verdade é uma só.";
+      document.getElementById("mensagem").textContent = mensagem;
+    }
+ </script>
+
+
+    <br><br>
+    </p>
+    <!--Lista de Hobies-->
+    <ul>
+        <li>Estudar</li>
+        <li>Calistenia</li>
+        <li>Ler</li>
+    </ul>
+    <h2>Exemplos Ilustrados:</h2>
+    <!--Imagem relacionada aos Hobbies-->
+    <img id="first" src="Imagens/estudo.jpg.webp" alt="Códigos de Progamação">
+    <img id="first" src="Imagens/calistenia.jpg" alt="Calistenia">
+    <h2>Possíveis Lugares p/ Visitar:</h2>
+    <!--Tabela-->
+        <table border=1>
+            <tr>
+                <th>Japão</th>
+                <th>Suiça</th>
+                <th>Noruega</th>
+        </tr>
+            <tr id="second">
+                <td><img src="Imagens/japao.jpb.avif"></td>
+                <td><img src="Imagens/suiça.jpg"></td>
+                <td><img src="Imagens/noruega.jpg"></td>
+            </tr>    
+        </table>
+    
+</body>
+
+</html>

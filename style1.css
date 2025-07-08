@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(to top, rgb(86, 85, 90), rgb(243, 218, 163));
+}
+h1{
+    color: rgb(25, 22, 22);
+    text-align: center;
+    font-family: "Gruppo", "cosolas", "sans-siref";
+}
+p{
+    color: rgb(25, 22, 22);
+    font-family: "Gruppo", "consolas", "sans-siref";
+    font-size: larger;
+    border-bottom: outset;
+    border-right: outset;
+    border-color: rgb(25, 22, 22);
+    text-shadow: 0px 0px 0px;
+}
+button{
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: hsl(43, 22%, 32%)
+}
+button:hover{
+    background-color: hsla(0, 24%, 96%, 0)
+}
+ul{
+    color: rgb(25, 22, 22);
+    text-align: le  ft;
+    font-family: "Gruppo", "cosolas", "sans-siref";
+    font-size: larger;
+    text-shadow: 0px 0px 0px;
+}
+h2{
+    color: rgb(25, 22, 22);
+    text-align: left;
+    font-family: "Gruppo", "cosolas", "sans-siref";
+}
+#first{
+    width: 200;
+    height: 150px;
+    border-radius: 28px;
+}
+table{
+    font-family: "Gruppo", "consolas", "sans-siref";
+    font-size: larger;
+    content: 100px;
+    background-color: rgb(94, 85, 74);
+    margin-left: 200px;
+    margin-bottom: 1px;
+}
+#second{
+    background-color: rgb(25, 22, 22);
+}
+img{
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    border-radius: 28px;
+}
+i{
+    color: hsl(25, 22%, 22%)
+}
+i:hover{
+    color: hsl(0, 100%, 60%)
+}
